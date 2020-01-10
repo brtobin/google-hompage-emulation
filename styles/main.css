@@ -1,3 +1,82 @@
-#logo {
-    align-content: center;
+
+.nav ul {
+    list-style-type: none;
 }
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: arial, sans-sarif;
+    font-size: 13px;
+}
+
+.lbox {
+    margin-top: 47px;
+    height: 233px;
+}
+
+.lbox img {
+    margin-left: 500px;
+    padding-top: 109px;
+}
+
+.sbox {
+    width: 1280px;
+    height: 52px; 
+}
+
+.sbox img {
+    max-width: 20px;
+    max-height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sbox input {
+    width: 520px;
+    margin-left: 55px;
+    margin-top: -23px;
+    border: none;
+}
+
+#search-box {
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 582px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+#searchicon {
+    margin-top: 5px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding-top: 35px;
+}
+
+.center input {
+    height: 36px;
+    width: 127.41;
+    padding: 0 16px;
+    margin: 11px 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+}
+
+#luck {
+    width: 142.467;
+}
+

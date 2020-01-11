@@ -16,10 +16,17 @@ html {
     text-decoration: none;
     font-family: arial, sans-sarif;
     font-size: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .nav a:hover {
     text-decoration: underline;
+}
+
+.nav {
+    margin-top: 20px;
+    padding: 0 0 0 0;
 }
 
 #wrapper {
@@ -41,17 +48,12 @@ html {
     border: 1px solid #dfe1e5;
     height: 44px;
     width: 582px;
-    text-align: center;
 }
 
 .centered {
-    width: 1241px;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
     padding-top: 5px;
     margin-top: 21px;
-    height: 50px;
+    height: 150px;
 }
 
 .search-box {
@@ -76,55 +78,15 @@ html {
     margin: 14 10 0 0;
 }
 
-
-
-/*
-
-
-
-
-
-
-.sbox {
-    width: 1280px;
-    height: 52px; 
+.buttons {
+    margin-top: 20px;
 }
 
-.sbox img {
-    max-width: 20px;
-    max-height: 20px;
-}
-
-.sbox input {
-    width: 400px;
-    border: none;
-}
-
-.centered div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#search-box {
-    border-radius: 24px;
-    border: 1px solid #dfe1e5;
-    height: 44px;
-    width: 582px;
-    padding-top: 5px; 
-}
-
-#searchicon {
-}
-
-.center {
-}
-
-.center input {
+.buttons input {
     height: 36px;
-    width: 127.41;
-    padding: 0 16px;
+    width: 127.41px;
     margin: 11px 4px;
+    padding: 0 16px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
@@ -133,14 +95,13 @@ html {
     font-family: arial, sans-serif;
 }
 
-input:hover {
+.buttons input:hover {
     border: 1px solid #c6c6c6;
     color: #222;
     box-shadow: 0 1px rgba(0,0,0,0.1);
+    cursor: pointer;
 }
 
 #luck {
-    width: 142.467;
+    width: 142.467px;
 }
-
-*/

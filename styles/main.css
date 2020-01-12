@@ -4,6 +4,7 @@ html {
 
 .nav ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .nav li {
@@ -24,9 +25,24 @@ html {
     text-decoration: underline;
 }
 
+#new-block {
+    padding-left: 1500px;
+}
+
 .nav {
     margin-top: 20px;
     padding: 0 0 0 0;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+}
+
+#avatar {
+    height: 2.5em;
+    width: 2.5em;
 }
 
 #wrapper {

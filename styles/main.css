@@ -1,5 +1,12 @@
 html {
     display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    min-width: 1153px;
+    overflow: hidden;
 }
 
 .nav ul {
@@ -25,13 +32,33 @@ html {
     text-decoration: underline;
 }
 
-#new-block {
-    padding-left: 1500px;
+.outer-wrapper{
+    margin-top: -36.7px;
+    float: right;
+}
+
+.outer-wrapper ul {
+    list-style-type: none;
+}
+
+.outer-wrapper li {
+    display: inline-block;
+}
+
+.outer-wrapper a {
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: arial, sans-sarif;
+    font-size: 13px;
+    padding: 0 16px;
 }
 
 .nav {
-    margin-top: 20px;
+    margin-top: -10px;
     padding: 0 0 0 0;
+    width: 1915px;
+    overflow: hidden;   
 }
 
 .icon {
@@ -87,6 +114,7 @@ html {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
+
 
 #search-icon {
     max-width: 15px;

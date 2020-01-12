@@ -9,16 +9,15 @@ body {
     overflow: hidden;
 }
 
-.nav ul {
+.format ul {
     list-style-type: none;
-    padding-left: 0;
 }
 
-.nav li {
+.format li {
     display: inline-block;
 }
 
-.nav a {
+.format a {
     color: #000;
     opacity: 0.75;
     text-decoration: none;
@@ -28,7 +27,7 @@ body {
     padding-right: 16px;
 }
 
-.nav a:hover {
+.format a:hover {
     text-decoration: underline;
 }
 
@@ -37,21 +36,8 @@ body {
     float: right;
 }
 
-.outer-wrapper ul {
-    list-style-type: none;
-}
-
-.outer-wrapper li {
-    display: inline-block;
-}
-
-.outer-wrapper a {
-    color: #000;
-    opacity: 0.75;
-    text-decoration: none;
-    font-family: arial, sans-sarif;
-    font-size: 13px;
-    padding: 0 16px;
+.nav ul {
+    padding-left: 0;
 }
 
 .nav {
